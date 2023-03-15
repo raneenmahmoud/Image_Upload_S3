@@ -27,7 +27,6 @@
                 background-attachment: fixed;}
       </style> -->
 </head>
-<?php require_once ("model/Files.php")?>
 <body>
 <div class="container p-5">
  <form action="index.php" method="post" enctype="multipart/form-data" class="p-5 shadow d-flex flex-column justify-content-center">
