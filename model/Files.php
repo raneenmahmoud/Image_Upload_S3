@@ -10,7 +10,7 @@ class Files
             $this->set_credentials();//call method
         }
         //instantiate an amazon s3 client
-    public function set_credentials()
+    private function set_credentials()
         {
             $this->_S3_file = S3Client::factory(
                 array(
